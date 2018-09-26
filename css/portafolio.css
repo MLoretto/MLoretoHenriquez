@@ -1,0 +1,47 @@
+body{
+    /*background-image:linear-gradient(rgb(0, 0, 0), rgb(24, 24, 23)) no-repeat;*/
+    background: -webkit-gradient(linear, left top, left bottom, from(#000), to(#1A1A1A)) fixed;
+    background-repeat: repeat-y;
+    padding: 0;
+    margin: 0 !important;
+}
+.colorNav{
+    background-color: black!important;
+    border-bottom:solid 0.5px #b9b9b9;
+}
+.navBtnColor{
+    padding-top: 23px;
+    color: #b9b9b9;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+#points{
+    width: 100%;
+    height: calc(100vh - 0px);
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    opacity: 0.8;
+}
+.contCentral{
+    justify-content: center;
+    padding-top: 90px;
+}
+.backGroundColorText{
+    /*background-color:#5454552f;*/
+    background-image: url("../images/background.jpg");
+    opacity: 0.5;
+    border-radius: 5px;
+    width: 100%;
+    height: calc(100vh - 0px);
+    z-index: 1;
+}
+.textTitles{
+    color: #b9b9b9;
+    z-index: 3;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 20px;
+    opacity:none;
+}
+
