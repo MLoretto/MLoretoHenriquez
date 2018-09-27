@@ -35,7 +35,7 @@ function iniciar(){
 }
 
 function entrar(){
-    window.location = 'html/Portafolio.html';
+    window.location = 'html/portafolio.html';
 
 }
 
