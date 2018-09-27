@@ -1,13 +1,11 @@
 body{
-    /*background-image:linear-gradient(rgb(0, 0, 0), rgb(24, 24, 23)) no-repeat;*/
-    background: -webkit-gradient(linear, left top, left bottom, from(#000), to(#1A1A1A)) fixed;
+    background-color: rgb(34, 34, 34);
     background-repeat: repeat-y;
     padding: 0;
     margin: 0 !important;
 }
 .colorNav{
-    background-color: black!important;
-    border-bottom:solid 0.5px #b9b9b9;
+    background-color: rgb(20, 20, 20)!important;
 }
 .navBtnColor{
     padding-top: 23px;
@@ -21,27 +19,27 @@ body{
     position: fixed;
     top: 0px;
     left: 0px;
-    opacity: 0.8;
+    opacity:0.9;
 }
 .contCentral{
     justify-content: center;
-    padding-top: 90px;
+    padding-top: 150px;
 }
 .backGroundColorText{
     /*background-color:#5454552f;*/
-    background-image: url("../images/background.jpg");
-    opacity: 0.5;
+    background-color:grey;
+    opacity: 0.7;
     border-radius: 5px;
-    width: 100%;
+    width: 90%;
     height: calc(100vh - 0px);
     z-index: 1;
 }
 .textTitles{
-    color: #b9b9b9;
+    color:white !important;
     z-index: 3;
     padding-left: 100px;
     padding-right: 100px;
-    padding-top: 20px;
+    padding-top: 50px;
     opacity:none;
 }
 
