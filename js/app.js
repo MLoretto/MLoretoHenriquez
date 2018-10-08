@@ -2,14 +2,14 @@ particlesJS('points',
   {
     "particles": { 
       "number": {
-        "value": 200, // cantidad particulas
+        "value": 150, // cantidad particulas
         "density": {
           "enable": true,
           "value_area": 700
         }
       },
       "color": {  // Color de particula
-        "value": "#0000ff"
+        "value": "#90c61e"
       },
       "shape": {
         "type": "circle",
@@ -37,7 +37,7 @@ particlesJS('points',
         }
       },
       "size": {
-        "value": 5,
+        "value": 3,
         "random": true,
         "anim": {
           "enable": false,
@@ -49,8 +49,8 @@ particlesJS('points',
       "line_linked": {    //lineas 
         "enable": true,
         "distance": 150,
-        "color": "#545455",
-        "opacity": 0.3,
+        "color": "#f7f758",
+        "opacity": 0.1,
         "width": 1
       },
       "move": {
@@ -117,3 +117,4 @@ particlesJS('points',
   }
 
 );
+

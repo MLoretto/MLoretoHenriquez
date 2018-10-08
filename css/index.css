@@ -1,9 +1,19 @@
 body{
-    /*background-image:linear-gradient(rgb(0, 0, 0), rgb(24, 24, 23)) no-repeat;*/
-    background: -webkit-gradient(linear, left top, left bottom, from(#000), to(#1A1A1A)) fixed;
+    background:#fefeff;
     padding: 0;
     margin: 0 !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+
 }
+.menu{
+    color: #90c61e;
+    font-size: 50px;
+    padding-top: 5px;
+}
+
 #points{
     width: 100%;
     height: calc(100vh - 0px);
@@ -19,4 +29,37 @@ body{
     border-radius: 100px !important;
     width: 150px;
     height: 150px;
+}
+
+
+.anim, .anim /* svg */ {
+    position: relative;
+    width: 300px;
+    height: 200px;
+    color: black;
+  }
+  .anim path {
+    stroke:green !important;
+  }
+
+#divMloreto {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    height: 300px;
+    margin-left: -200px;
+    margin-top: -150px;
+    color: black;
+}
+#svgMloreto {
+    width: 400px;
+    height: 300px;
+    color: black;
+}
+.menuLink{
+    position: relative !important;
+    top: -100px !important;
+    left: 180px !important;
+    display: none;
 }
