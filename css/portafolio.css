@@ -1,16 +1,18 @@
 body{
-    background-color: rgb(34, 34, 34);
+    background-color: #ffffff;
     background-repeat: repeat-y;
     padding: 0;
     margin: 0 !important;
 }
 .colorNav{
-    background-color: rgb(20, 20, 20)!important;
+    /*background-color: #37464f !important;*/
+    
 }
 .navBtnColor{
-    padding-top: 23px;
-    color: #b9b9b9;
-    margin-left: 20px;
+    font-family: 'Roboto Condensed', sans-serif;
+    padding-top: 15px;
+    color: #90c61e;
+    margin-left: 0px;
     margin-right: 20px;
 }
 #points{
@@ -21,25 +23,69 @@ body{
     left: 0px;
     opacity:0.9;
 }
-.contCentral{
-    justify-content: center;
-    padding-top: 150px;
-}
-.backGroundColorText{
-    /*background-color:#5454552f;*/
-    background-color:grey;
-    opacity: 0.7;
-    border-radius: 5px;
-    width: 90%;
-    height: calc(100vh - 0px);
-    z-index: 1;
-}
-.textTitles{
-    color:white !important;
-    z-index: 3;
-    padding-left: 100px;
-    padding-right: 100px;
-    padding-top: 50px;
-    opacity:none;
+
+.row1{
+    margin-top: 3%;
 }
 
+.row2{
+    margin-top: 5%;
+}
+
+.pieProyecto{
+    color: gray;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
+    padding-top: 2%;
+}
+
+.contCentral{
+    justify-content: center;
+    padding-top: 5%;
+    width: 85%;
+    height: calc(100vh - 0px);
+}
+
+.contProyecto {
+    width: 200px;
+    height: 200px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    top: 20px;
+  }
+  .div-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+   
+  }
+  .div-img.hidden {
+    overflow: hidden;
+    border-radius: 100px;
+  }
+
+  .div-img .img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    transform: scale(1);
+    -ms-transform: scale(1);
+    -moz-transform: scale(1);
+    -webkit-transform: scale(1);
+    -o-transform: scale(1);
+    -webkit-transition: all 500ms ease-in-out;
+    -moz-transition: all 500ms ease-in-out;
+    -ms-transition: all 500ms ease-in-out;
+    -o-transition: all 500ms ease-in-out;
+  }
+  .div-img:hover .img {
+    transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -o-transform: scale(1.2);
+  }
+
+  

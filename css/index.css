@@ -8,10 +8,16 @@ body{
     position: absolute;
 
 }
-.menu{
-    color: #90c61e;
+.door1{
+    color: #c4c4c4;
     font-size: 50px;
-    padding-top: 5px;
+    margin-top: 25px;
+}
+
+.door2{
+    color: #f7e600;
+    font-size: 50px;
+    margin-top: 25px;
 }
 
 #points{
@@ -46,10 +52,10 @@ body{
     position: fixed;
     top: 50%;
     left: 50%;
-    width: 400px;
-    height: 300px;
+    width: 600px;
+    height: 500px;
     margin-left: -200px;
-    margin-top: -150px;
+    margin-top: -200px;
     color: black;
 }
 #svgMloreto {
@@ -62,4 +68,20 @@ body{
     top: -100px !important;
     left: 180px !important;
     display: none;
+}
+.sinUnderline{
+    text-decoration: none !important;
+}
+
+.sinUnderline:hover{
+    text-decoration: none !important;
+}
+
+
+.lock:hover .far,
+.lock .fas {
+    display: none;
+}
+.lock:hover .fas {
+    display: block;
 }
