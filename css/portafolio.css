@@ -5,16 +5,22 @@ body{
     margin: 0 !important;
 }
 .colorNav{
-    /*background-color: #37464f !important;*/
+  
     
 }
+
 .navBtnColor{
     font-family: 'Roboto Condensed', sans-serif;
+    font-size: 30px;
     padding-top: 15px;
     color: #90c61e;
     margin-left: 0px;
     margin-right: 20px;
 }
+.navBtnColor :hover{
+    color: yellow;
+}
+
 #points{
     width: 100%;
     height: calc(100vh - 0px);
@@ -25,11 +31,11 @@ body{
 }
 
 .row1{
-    margin-top: 3%;
+    margin-top: 0;
 }
 
 .row2{
-    margin-top: 5%;
+    margin-top: 8%;
 }
 
 .pieProyecto{
@@ -63,6 +69,7 @@ body{
   .div-img.hidden {
     overflow: hidden;
     border-radius: 100px;
+    max-width: 200px;
   }
 
   .div-img .img {
@@ -88,4 +95,82 @@ body{
     -o-transform: scale(1.2);
   }
 
-  
+/* Stylos Modal */  
+
+.styleModal{
+    background-color: rgb(0, 0, 0) !important;
+}
+
+.modal-body{
+    background-color:rgb(0, 0, 0) !important;
+    text-align: center !important;
+}
+
+.modal-content{
+    border:0px !important;
+}
+
+.btn-secondary{
+    background-color: transparent !important;
+    border-color: transparent !important;
+}
+
+.upIcon{ /* Icono Modal Close*/ 
+    color: #90c61e;
+    font-size: 70px;
+}
+
+.upIcon:hover { 
+    color: yellow;
+}
+
+.sobreMi{
+    margin-top: 50px;
+    color: white;
+    font-size: 30px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.sobreMi:hover { 
+    color: #90c61e;
+}
+
+.proyectos{
+    margin-top: 10px;
+    color: white;
+    font-size: 30px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.proyectos:hover { 
+    color: #90c61e;
+}
+.contacto{
+    color: white;
+    font-size: 30px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.contacto:hover { 
+    color:#90c61e;
+}
+
+.fa-github{
+    color: white;
+    margin-right: 20px;
+    font-size: 30px;
+}
+
+.fa-github:hover { 
+    color:  #90c61e;
+}
+
+.fa-linkedin-in{
+    color: white;
+    margin-right: 10px;
+    font-size: 30px;
+}
+
+.fa-linkedin-in:hover{
+    color:  #90c61e;
+}
