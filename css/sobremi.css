@@ -8,6 +8,11 @@ body{
    
 }
 
+.nombreTitle{
+    margin: 0px;
+    max-width: 100%;
+    text-align: left;
+}
 .navBtnColor{
     font-family: 'Roboto Condensed', sans-serif;
     font-size: 30px;
@@ -46,8 +51,20 @@ body{
 .contCentral{
     justify-content: center;
     padding-top: 5%;
-    width: 85%;
     height: calc(100vh - 0px);
+}
+
+.textMe{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 20px;
+    margin-top: 20px;
+    color: #37464f;
+}
+
+.nombreTitle{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 30px;
+    color: #37464f;
 }
 
 /* Stylos Modal */  
