@@ -5,9 +5,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    position: absolute;
     width: 100%;
-    height: calc(100vh - 0px);
 }
 
 .navBtnColor{
@@ -51,15 +49,24 @@ body{
   }
 
 #divMloreto {
-    position: fixed;
-    top: 50%;
-    left: 50%;
+    position: static;
     width: 600px;
     height: 500px;
-    margin-left: -200px;
-    margin-top: -200px;
-    color: black;
+    padding-top: 140px; 
 }
+
+.verProyectos {
+    text-align: center;
+    margin-top: -80px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 15px;
+    color: #90c61e;
+}
+
+.verProyectos:hover{
+    color:yellow;
+}
+
 #svgMloreto {
     width: 400px;
     height: 300px;
