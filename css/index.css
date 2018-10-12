@@ -67,10 +67,38 @@ body{
     color:yellow;
 }
 
-#svgMloreto {
+#svgMloreto { /*Animación DESKTOP*/
     width: 400px;
     height: 300px;
     color: black;
+}
+
+@media only screen and (min-width:5px) and (max-width: 412px) { /*Animación CELULAR*/
+    #svgMloreto {
+    width: 200px !important;
+    height: 150px !important;
+    margin-top: 100px !important; 
+    }
+    .gitH{
+        margin-top: 120px !important; 
+    } 
+    .linK{
+        margin-top: 120px !important; 
+    }
+}
+
+@media only screen and (min-width:413px) and (max-width:768px) { /*Animación-Iconos TABLET*/
+    #svgMloreto {
+    width: 400px;
+    height: 300px;
+    margin-top: 200px; 
+    }
+    .gitH{
+        margin-top: 200px !important; 
+    }
+    .linK{
+        margin-top: 200px !important; 
+    }
 }
 
 .navegacion{
