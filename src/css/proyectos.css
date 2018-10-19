@@ -76,6 +76,10 @@ li{
     color: yellow !important;
 }
 
+.cambio:hover{
+    background-color: yellow;
+    color: #37464f !important;
+}
 
 /* Stylos Modal */  
 
