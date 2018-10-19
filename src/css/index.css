@@ -1,0 +1,167 @@
+body{
+    width: 100%;
+}
+
+#points{
+    width: 100%;
+    height: calc(100vh - 0px);
+    position: fixed;
+    top: 0px;
+    left: 0px;
+}
+
+.navbar{
+    height: 50px;
+}
+
+#icono1, #icono2, #icono3{
+    display: none;
+}
+
+.alinVertical{
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.aIcon{
+    width: 32px;
+    height: 32px;
+}
+
+.styleIcon{
+    color: #90c61e !important;
+    font-size: 30px;
+    margin-bottom: 6px !important;
+    margin-left: -5px;
+}
+.styleIcon :hover{
+    color: yellow !important;
+}
+
+.styleIcon2{
+    color: #90c61e !important;
+    font-size: 30px;
+    margin-right: 5px;
+}
+
+.styleIcon2 :hover{
+    color: yellow !important;
+}
+
+#svgMloreto{
+    width: 500px !important;
+    height: 300px !important;
+}
+
+@media only screen and (min-width:5px) and (max-width: 321px){ /*CELULAR*/
+    #svgMloreto{
+        width: 200px !important;
+        height: 150px !important;
+    }
+}
+
+@media only screen and (min-width:322px) and (max-width: 750px){ /*IPAD*/
+    #svgMloreto{
+        width: 400px !important;
+        height: 300px !important;
+    }
+}
+
+/* Stylos Modal */  
+
+.styleModal{
+    background-color: rgb(0, 0, 0) !important;
+}
+
+.modal-body{
+    background-color:rgb(0, 0, 0) !important;
+    text-align: center !important;
+}
+
+.modal-content{
+    border:0px !important;
+}
+
+.btn-secondary{
+    background-color: transparent !important;
+    border-color: transparent !important;
+}
+
+.upIcon{ /* Icono Modal Close*/ 
+    color: #90c61e;
+    font-size: 70px;
+}
+
+.upIcon:hover { 
+    color: yellow;
+}
+
+.inicioAnim{
+    margin-top: 10px;
+    color: white;
+    font-size: 30px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.inicioAnim:hover{ 
+    color: #90c61e;
+}
+
+.sobreMi{
+    margin-top: 10px;
+    color: white;
+    font-size: 30px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.sobreMi:hover { 
+    color: #90c61e;
+}
+
+.proyectos{
+    margin-top: 10px;
+    color: white;
+    font-size: 30px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.proyectos:hover { 
+    color: #90c61e;
+}
+
+.contacto{
+    color: white;
+    margin-top: 10px;
+    font-size: 30px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.contacto:hover { 
+    color:#90c61e;
+}
+
+.fa-github{
+    color: white;
+    margin-top: 10px;
+    margin-right: 20px;
+    font-size: 30px;
+}
+
+.fa-github:hover { 
+    color:  #90c61e;
+}
+
+.fa-linkedin-in{
+    color: white;
+    margin-top: 10px;
+    margin-right: 10px;
+    font-size: 30px;
+}
+
+.fa-linkedin-in:hover{
+    color:  #90c61e;
+}
+
+/* End Icono Modal Close*/ 

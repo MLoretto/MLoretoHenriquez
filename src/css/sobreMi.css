@@ -1,18 +1,26 @@
 body{
-    background-color: #ffffff;
-    background-repeat: repeat-y;
-    padding: 0;
-    margin: 0 !important;
     width: 100%;
 }
-.colorNav{
+
+#points{
+    width: 100%;
+    height: calc(100vh - 0px);
+    position: fixed;
+    top: 0px;
+    left: 0px;
+}
+
+.navbar{
+    height: 50px;
 }
 
 .nombreTitle{
-    margin: 0px;
+    margin: 20px 0px 0px 0px;
     max-width: 100%;
     text-align: left;
-    font-size: 50px !important;
+    font-size: 40px !important;
+    color: #90c61e;
+
 }
 
 .titleHabilidades{
@@ -45,35 +53,6 @@ body{
     color: #37464f;
 }
 
-.navBtnColor{
-    font-family: 'Roboto Condensed', sans-serif;
-    font-size: 30px;
-    padding-top: 15px;
-    color: #90c61e;
-    margin-left: 0px;
-    margin-right: 20px;
-}
-.navBtnColor :hover{
-    color: yellow;
-}
-
-#points{
-    width: 100%;
-    height: calc(100vh - 0px);
-    position: fixed;
-    top: 0px;
-    left: 0px;
-    opacity:0.9;
-}
-
-.row1{
-    margin-top: 0;
-}
-
-.row2{
-    margin-top: 8%;
-}
-
 .imgFoto{
     border-radius: 100%;
     width: 300px;
@@ -83,7 +62,7 @@ body{
 .contCentral{
     justify-content: center;
     padding-top: 5%;
-    height: calc(100vh - 0px);
+    height: calc(90vh - 0px);
 }
 
 .textMe{
@@ -93,10 +72,28 @@ body{
     color: #37464f;
 }
 
-.nombreTitle{
-    font-family: 'Roboto Condensed', sans-serif;
+
+
+.alinVertical{
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.aIcon{
+    width: 32px;
+    height: 32px;
+}
+
+.styleIcon{
+    color: #90c61e !important;
     font-size: 30px;
-    color: #37464f;
+    margin-bottom: 6px !important;
+    margin-left: -5px;
+}
+.styleIcon :hover{
+    color: yellow !important;
 }
 
 /* Stylos Modal */  
@@ -195,7 +192,3 @@ body{
 }
 
 /* End Icono Modal Close*/ 
-
-
-
-

@@ -2,57 +2,64 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>Portafolio</title>
+  <title>Welcome</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
-  <link rel="stylesheet" media="screen" href="../css/sobremi.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css" > 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"> 
+  <link rel="stylesheet" media="screen" href="../css/sobreMi.css"> 
+ 
 </head>
-<body> 
-<!-- Menú -->
-    <nav class="navbar fixed-top colorNav justify-content-left">
-        <ul class="nav">
-            <li class="nav-item">
-                <a class="nav-link active navBtnColor" href="#" data-toggle="modal" data-target="#exampleModalLong"><i class="fas fa-bars"></i></a>
-            </li>
-        </ul>
-    </nav>
-    <!-- Particulas -->
+<body>
     <div id="points"></div>
-    <!-- MI FOTO -->
-
-    <div class="container contCentral">
+    <!-- Botón Menú -->
+    <nav class="navbar">
+        <div class="navbar-brand styleIcon">
+            <a class="nav-link aIcon" href="#" data-toggle="modal" data-target="#exampleModalLong"><i class="fas fa-bars styleIcon"></i></a>
+        </div>
+    </nav>
+    <!-- End Botón Menú -->
+    <!-- Contenedor Central -->
+    <div class="container-fluid contCentral pt-0">
         <div class="row no-gutters">
-            <div class="col-md-6 offset-md-1"> 
+            <div class="col-md-4 offset-md-1"> 
+                <img class="imgFoto img-responsive" src="../images/mloretto.jpg">
+            </div>
+            <div class="col-md-6 col-sm-2"> 
                 <h1 class="nombreTitle text-left">María Loreto Henríquez</h1>
                 <p class="textMe">Entusiasta y apasionada por la Tecnología, siempre en busca de nuevos retos y oportunidades para mejorar mis habilidades y conocimientos. 
                 <br>Me encanta crear proyectos que permitan dar soluciones concretas, mejorando la experiencia de quienes las necesitan, con un alto enfoque 
                 al cliente y servicio de calidad, apasionada por aprender, con capacidad de análisis, organización, adaptación y trabajo en equipo.
                 </p>
             </div>
-            <div class="col-md-4"> 
-                <img class="imgFoto img-responsive" src="../images/mloretto.jpg">
-            </div>
         </div>
+       
         <div class="row no-gutters">
-            <div class="col-md-3 offset-md-1"> 
-                <h1 class="titleHabilidades text-left">Habilidades</h1>
+                <div class="col-md-3  offset-md-1 col-sm-3"> 
+         
+            <h1 class="titleHabilidades text-left"><span class="align-middle">Habilidades</span></h1>
+                    </div>
+            <div class="col-md-2 col-sm-6"> 
+         
                 <li class="textMe">HTML</li>
                 <li class="textMe">CSS</li>
                 <li class="textMe">JAVASCRIPT</li>
                 <li class="textMe">FIREBASE</li>
             </div>
-            <div class="col-md-3"> 
-                <h1 class="nombreTitle text-left text-white">.</h1>
+            
+            <div class="col-md-2 col-sm-6"> 
+            
                 <li class="textMe">NODE</li>
                 <li class="textMe">ANGULAR</li>
                 <li class="textMe">JEST</li>
                 <li class="textMe">GIT</li>
             </div>
-            <div class="col-md-3"> 
-                <h1 class="nombreTitle text-left text-white">.</h1>
+
+            <div class="col-md-2 col-sm-3"> 
+                
                 <li class="textMe">BOOTSTRAP</li>
                 <li class="textMe">MATERIALIZE</li>
                 <li class="textMe">PHOTOSHOP</li>
@@ -60,7 +67,7 @@
             </div>
         </div>
         <div class="row no-gutters">
-            <div class="col-md-10 offset-md-1"> 
+            <div class="col-md-10 col-sm-10 offset-md-1"> 
                 <h1 class="titleLogros text-left">Logros</h1>
                 <li class="textMe">Primer Lugar Hackathon HERE Laboratoria</li>
                 <p class="descripcionProy">&#160;&#160;&#160;&#160;&#160;&#160;Octubre 2018</p>
@@ -71,28 +78,37 @@
                 <p>Check, interfaz de Registro de visitas para Co work IF Blanco, que optimiza el flujo, comunicación y seguridad del recinto.</p>
             </div>
         </div>
+        <footer class="row">zxczxczx</footer>
     </div>
+    <!-- End Contenedor central-->
+    <!-- Footer-->
+
+
+    
     <!-- Modal -->
     <div class="modal fade styleModal justify-content-center" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
         <div class="modal-dialog justify-content-center" role="document">
             <div class="modal-content">
                 <div class="modal-body">
                     <button type="button" class="btn btn-secondary" data-dismiss="modal"><i class="material-icons upIcon">keyboard_arrow_up</i></button>
-                    <a class="nav-link active" href="../index.html"><p class="inicioAnim">Inicio</p></a>
-                    <a class="nav-link active" href="sobremi.html"><p class="sobreMi">Sobre Mi</p></a>
-                    <a class="nav-link active" href="portafolio.html"><p class="proyectos">Proyectos</p></a>
+                    <a class="nav-link active" href="../../index.html"><p class="inicioAnim">Inicio</p></a>
+                    <a class="nav-link active" href="../html/about.html"><p class="sobreMi">Sobre Mi</p></a>
+                    <a class="nav-link active" href="../html/proyectos.html"><p class="proyectos">Proyectos</p></a>
                     <i class="fab fa-github"></i> <i class="fab fa-linkedin-in"></i>
                 </div>
             </div>
         </div>
     </div>
     <!-- End Modal -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-    <script src="../js/particles.js"></script>
-    <script src="../js/anime.min.js"></script>
-    <script src="../js/app.js"></script>
-    <script src="../js/portafolio.js"></script>
+
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+<script src="../js/anime.min.js"></script>
+<script src="../js/particles.js"></script>
+<script src="../js/app.js"></script>
+<script src="../js/index.js"></script>
 </body>
 </html>
