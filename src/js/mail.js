@@ -11,7 +11,6 @@ myform.submit(function(event){
       limpiar();
       alert("Su mensaje ha sido enviado con éxito!");
       
-     
     }, function(err) {
       alert("Error al enviar el mensaje!\r\n Respuesta:\n " + JSON.stringify(err));
       myform.find("button").text("Enviar");
