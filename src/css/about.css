@@ -67,7 +67,7 @@ li{
 
 .footIcon{
     color: white !important;
-    font-size: 70px;
+    font-size: 30px;
 }
 
 .footIcon:hover { 
@@ -198,6 +198,13 @@ li{
     color: white;
     border-radius: 5px;
   }
+
+  .botSend:hover{
+    background-color: yellow !important;
+    border: 1px solid yellow;
+    color: #37464f;
+  }
+
   form label {
     color: #777;
     font-size: 11px;

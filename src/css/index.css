@@ -40,6 +40,15 @@ body{
     color: yellow !important;
 }
 
+.footIcon{
+    color: white !important;
+    font-size: 30px;
+}
+
+.footIcon:hover { 
+    color: yellow !important;
+}
+
 .styleIcon2{
     color: #90c61e !important;
     font-size: 30px;
