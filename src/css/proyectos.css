@@ -1,5 +1,5 @@
 body{
-    width: 100%;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 
 #points{
@@ -10,20 +10,69 @@ body{
     left: 0px;
 }
 
-.alinVertical{
-    height: 80vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.grey{
+    color: #37464f;
+}
+
+.imgFoto{
+    border-radius: 100%;
+    width: 300px;
+    height: 300px;
+}
+
+.aire{
+    padding: 20px;
+}
+
+.backG{
+    background-color: #90c61e;
+}
+
+.verde{
+    color:#90c61e;
+}
+
+.btn-verde{
+   background-color: #90c61e; 
+}
+
+h3{
+    padding: 30px 0px 15px 0px;
+}
+
+.skills{
+    font-size: 3em;
+    color: grey;
+    margin-bottom: 15px;
+}
+
+li{
+    list-style: none;
+}
+
+.row{
+    margin-bottom: 15px;
 }
 
 .styleIcon{
     color: #90c61e !important;
     font-size: 30px;
+    margin-bottom: 6px !important;
+    margin-left: -5px;
 }
 .styleIcon :hover{
     color: yellow !important;
 }
+
+.footIcon{
+    color: white !important;
+    font-size: 70px;
+}
+
+.footIcon:hover { 
+    color: yellow !important;
+}
+
 
 /* Stylos Modal */  
 
